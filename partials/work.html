@@ -1,0 +1,17 @@
+<div class="content">
+	<div id="static-background" class="overlay static-background"></div>
+	<div id="background" class="overlay background"></div>
+	<ul id="header" class="logo"><a href="/">
+		<li><h1>{{header.header}}</h1></li>
+		<li><h2>{{header.subheader}}</h2></li>
+	</a></ul>
+
+	<ul id="contact" class="contact">
+		<li class="icons" ng-repeat="contact in footer">
+			<a id="{{contact.id}" href="{{contact.URL}}"><i class="{{contact.icon}}"></i>{{contact.name}}</a>
+		</li>
+	</ul>
+	<ul id="copy" class="copyright">
+		<li id="copyright-notice"><i>&copy;</i>2015</li>
+	</ul>
+</div>

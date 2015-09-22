@@ -1,0 +1,39 @@
+[
+	{
+	"id" : "portfolio",
+	"name" : "Portfolio",
+	"description" : "Selected Work",
+	"category" : ["illustration","design","solo"],
+	"year" : "2015",
+	"imageURL" : "",
+	"hierarchy" : "1"
+	},
+	{
+	"id" : "work",
+	"name" : "Selected Work",
+	"description" : "Output",
+	"category" : ["illustration","design","game"],
+	"year" : "2015",
+	"imageURL" : "",
+	"hierarchy" : "2"
+	},
+	{
+	"id" : "blog",
+	"name" : "Development Blog",
+	"description" : "Selected Work",
+	"category" : ["blog"],
+	"year" : "2015",
+	"URL" : "http://blog.enemyspeak.com",
+	"imageURL" : "",
+	"hierarchy" : "2"
+	},
+	{
+	"id" : "ghost-cats",
+	"name" : "Latest Project: Ghost Cats",
+	"description" : "Local Multiplayer",
+	"category" : ["game","team"],
+	"year" : "2014-2015",
+	"imageURL" : "",
+	"hierarchy" : "1"
+	}
+]

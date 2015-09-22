@@ -1,0 +1,30 @@
+
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+html {
+	width: 0;
+}
+
+body {
+	font: normal Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+strong {
+	font: bold Arial, Helvetica, sans-serif;
+}
+
+i {
+	padding-right: 8px;
+}

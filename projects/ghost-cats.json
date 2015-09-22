@@ -1,0 +1,25 @@
+{
+	"id":"ghost-cats",
+	"name" : "Ghost Cats",
+	"kind":["game","team"],
+	"year":"2015",
+	"mainImage" : "img/ghost-cats2.png",
+	"snippet" : "GHOST CATS IS A MULTIPLAYER GAME MADE WITH @JAUXILES ABOUT FIGHTING ENEMIES IN RANDOMIZED NEON DUNGEONS.",
+	"controls" : 	[
+					"Keyboard:",
+					"[ Q,E,C,Z ] : Move",
+					"[ S ] : Shoot skull",
+					"Gamepad:",
+					"[ JOYSTICK ] : Move",
+					"[ X ] : Shoot skull"
+					],
+	"download" : 	{
+					"Windows" : "Coming Soon",
+					"Mac OS" : "Coming Soon",
+					"Itch.io" : "Coming Soon",
+					"Source" : "Coming Soon"
+					},
+	"media" : 	{
+				"img/ghost-cats1.jpg"
+				}
+}
