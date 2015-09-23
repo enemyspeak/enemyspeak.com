@@ -331,27 +331,6 @@ a:hover {
 	padding-bottom: 5px;
 }
 
-.contact {
-	width: 675px;
-	margin: 10px 0px 10px 50px;
-	display: inline-block;
-	clear: left;
-	float: left;
-}
-
-.contact li {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 12px;
-    text-transform: uppercase;
-	text-align: left;
-	display: inline-block;
-	padding: 5px 10px 6px 10px;
-	margin: 8px 0px 0px 0px;
-	background-color: #222;
-	list-style: none;
-}
-
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }

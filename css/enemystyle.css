@@ -30,12 +30,15 @@ body {
 	text-align: left;
 }
 
+.align {
+	clear: left;
+	float: left;
+}
+
 .logo {
 	margin-top:100px;
 	width:675px;
 	display: inline-block;
-	clear: left;
-	float: left;
 }
 
 .logo li {
@@ -48,8 +51,6 @@ body {
 	margin: 10px 0px 0px 50px;
 	background-color: #222;
 	color: #FFF;
-	clear: left;
-	float: left;
 }
 
 h1 {
@@ -73,8 +74,6 @@ a:hover {
 	width:675px;
 	margin: 25px 0px 0px 50px;
 	display: inline-block;
-	clear: left;
-	float: left;
 }
 
 .navigation li {
@@ -86,8 +85,6 @@ a:hover {
 	padding: 5px 10px 6px 10px;
 	margin: 8px 0px 0px 0px;
 	background-color: #222;
-	clear: left;
-	float: left;
 	list-style: none;
 }
 
@@ -96,4 +93,42 @@ a:hover {
 	font-size: 12px;
 	padding: 0px 10px 5px 10px;
 	margin: 0px;
+}
+
+.contact {
+	width: 675px;
+	margin: 10px 0px 10px 50px;
+	display: inline-block;
+}
+
+.contact li {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+    text-transform: uppercase;
+	text-align: left;
+	display: inline-block;
+	padding: 5px 10px 6px 10px;
+	margin: 8px 0px 0px 0px;
+	background-color: #222;
+	list-style: none;
+}
+
+.copyright {
+	width: 675px;
+  	display: inline-block;
+}
+
+.copyright li {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+    text-transform: uppercase;
+	text-align: left;
+	display: inline-block;
+	padding: 5px 10px 6px 10px;
+	margin: 8px 0px 0px 0px;
+	background-color: #222;
+	color: #fff;
+	list-style: none;
 }
