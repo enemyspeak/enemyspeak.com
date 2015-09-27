@@ -5,11 +5,12 @@
 		<li><h1>{{header.header}}</h1></li>
 		<li><h2>{{header.subheader}}</h2></li>
 	</a></ul>
-
-	<ul id="navigation" class="navigation" ng-repeat="project in homeList">
-		<a href="#/{{project.id}}"><li>{{project.name}}</li></a>
-		<a href="#/{{project.id}}"><li class="subhead">{{project.description}}, {{project.year}}</li></a>
-	</ul> 
+	<div ng-repeat="project in homeList">
+		<a href="#/{{project.id}}"><ul id="navigation" class="navigation">
+			<li>{{project.name}}</li>
+			<li class="subhead">{{project.description}}, {{project.year}}</li>
+		</ul></a>
+	</div>
 
 	<ul id="contact" class="contact">
 		<li class="icons" ng-repeat="contact in footer">
