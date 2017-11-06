@@ -1,0 +1,57 @@
+{
+"title": "Enemyspeak - Games",
+"keyColor" : "#B2462C",
+"headerColor":"#B2462C",
+"list": [
+	{
+	"id" : "supervisitor",
+	"name" : "supervisitor",
+	"description" : "First Person Exploration",
+	"keyColor" : "#B2462C",
+	"headerColor":"#B2462C",
+	"year" : "2017",
+	"imageURL" : "/img/supervisitor2.png",
+	"hierarchy" : "1"
+	},
+	{
+	"id" : "ghost-cats",
+	"name" : "Ghost Cats",
+	"description" : "Local Multiplayer",
+	"keyColor" : "#2A4D59",
+	"headerColor":"#339591",
+	"year" : "2016",
+	"imageURL" : "/img/game1.jpg",
+	"hierarchy" : "1"
+	},
+	{
+	"id" : "our-forgotten-alphabet",
+	"name" : "Our Forgotten Alphabet",
+	"description" : "One Button",
+	"keyColor" : "#27465A",
+	"headerColor":"#62b1c1",
+	"year" : "2014-2015",
+	"imageURL" : "/img/home3.jpg",
+	"hierarchy" : "1"
+	},
+	{
+	"id" : "it-cant-happen-here",
+	"name" : "It Can't Happen Here",
+	"description" : "Jam",
+	"keyColor" : "#333333",
+	"headerColor": "#b7b7b7",
+	"year" : "2013",
+	"imageURL" : "/img/game6.jpg",
+	"hierarchy" : "1"
+	},
+	{
+	"id" : "carnton",
+	"name" : "Carnton",
+	"description" : "Jam",
+	"keyColor" : "#4E4439",
+	"headerColor":"#b2ac8c",
+	"year" : "2013",
+	"imageURL" : "/img/game5.jpg",
+	"hierarchy" : "1"
+	}
+	]
+}

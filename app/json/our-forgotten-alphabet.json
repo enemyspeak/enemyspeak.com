@@ -1,0 +1,45 @@
+{
+"id" : "our-forgotten-alphabet",
+"name" : "Our Forgotten Alphabet",
+"description" : "A game about a comet drawing constellations, made in lua script using the Love2d framework. Based on an unreleased game by Steph Thirion.",
+"keyColor" : "#27465A",
+"headerColor":"#62b1c1",
+"year" : "2014-2015",
+"imageURL" : "/img/home3.jpg",
+"controls" : 	{
+				"Keyboard": [
+							"[ ANY BUTTON ] : Orbit highlighted star",
+							"[ A ] : Toggle 1:1 mode",
+							"[ S ] : Take screenshot",
+							"[ D ] : End game",
+							"[ F ] : Toggle fullscreen"
+						 	],
+				"Gamepad":  [
+							"[ ANY BUTTON ] : Orbit highlighted star"
+							]
+				},
+"screens" :	 	[
+				"/img/ofa1.gif",
+				"/img/ofa2.gif",
+				"/img/ofa3.gif",
+				"/img/ofa4.gif"
+				],
+"downloadReady":true,
+"download": 	[
+					{
+					"label":"Mac OS",
+					"url":"/res/ofamac.zip",
+					"icon":"fi-social-apple"
+					},
+					{
+					"label":"Windows",
+					"url":"/res/ofapc.zip",
+					"icon":"fi-social-windows"
+					},
+					{
+					"label":"Source",
+					"url":"/res/ofasrc.zip",
+					"icon":"fi-page-filled"
+					}
+				]
+}

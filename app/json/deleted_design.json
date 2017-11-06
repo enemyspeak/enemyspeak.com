@@ -1,0 +1,28 @@
+	{
+	"id" : "ui-design",
+	"name" : "UI Design",
+	"description" : "Jam",
+	"keyColor" : "#333333",
+	"year" : "2013",
+	"imageURL" : "/img/game6.jpg",
+	"hierarchy" : "1"
+	},
+	{
+	"id" : "brochure-design",
+	"name" : "Brochure Design",
+	"description" : "Product brochures & collateral",
+	"keyColor" : "#27465A",
+	"year" : "2014-2015",
+	"imageURL" : "/img/home3.jpg",
+	"hierarchy" : "1"
+	}
+	{
+	"id" : "level-trading-admin",
+	"name" : "Level Trading Field Admin",
+	"description" : "LTF Admin Front-end & NodeJS Back-end",
+	"keyColor" : "#717171",
+	"headerColor":"#e8d487",
+	"year" : "2017",
+	"imageURL" : "/img/level-glitch1.jpg",
+	"hierarchy" : "1"
+	},

@@ -3,7 +3,7 @@
 	"id" : "resume",
 	"name" : "Resume",
 	"icon" : "fi-page-filled resume",
-	"URL" : "http://www.enemyspeak.com/about/faherty.pdf"
+	"URL" : "/res/resume-faherty.pdf"
 	},
 	{
 	"id" : "email",
@@ -19,14 +19,20 @@
 	},
 	{
 	"id" : "tumblr",
-	"name" : "Tumblr",
-	"icon" : "fi-social-tumblr tumblr",
-	"URL" : "http://blog.enemyspeak.com"
+	"name" : "Blog",
+	"icon" : "fi-social-tumblr",
+	"URL" : "http://blog.enemyspeak.com/"
 	},
 	{
-	"id" : "github",
-	"name" : "GitHub",
-	"icon" : "fi-social-github github",
-	"URL" : "https://github.com/enemyspeak"
+	"id" : "art-tumblr",
+	"name" : "Art Blog",
+	"icon" : "fi-social-tumblr",
+	"URL" : "http://paint.enemyspeak.com/"
+	},
+	{
+	"id" : "instagram",
+	"name" : "Instagram",
+	"icon" : "fi-social-instagram",
+	"URL" : "https://www.instagram.com/enemyspeaks/"
 	}
 ]

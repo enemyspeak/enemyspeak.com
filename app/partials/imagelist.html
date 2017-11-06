@@ -1,0 +1,17 @@
+<div class="content">
+	<div ng-hide="( breadcrumb == '' )" class="breadcrumb"><p>{{breadcrumb}} </p></div>
+	
+	<div id="images" class="images">
+		<ul>
+			<li ng-repeat="image in list">
+				<a href="{{image.imageURL}}" target="_blank"><img width="100%" ng-src="{{image.imageURL}}"></a>
+			</li>
+		</ul>
+	</div>
+
+	<div ng-hide="( breadcrumb == '' )" class="back">
+		<a ng-href="/"><p><i class="fi-arrow-left"></i>Back</p></a>
+	</div>
+
+	<div ng-include="'partials/footer.html'"></div>
+</div>

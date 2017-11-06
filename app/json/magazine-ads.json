@@ -1,0 +1,18 @@
+{
+"id" : "magazine-ads",
+"name" : "Magazine Ads",
+"description" : "Magazine advertisements that were published in Wire Journal, Industrial Heating, and the MTI and FNA TRADESHOW TABLOIDS. Responsible for copy, concepts, layouts, and illustrations.",
+"keyColor" : "#23756F",
+"year" : "2014-2015",
+"imageURL" : "/img/home4.jpg",
+"grid" : 	[
+				{
+					"imageURL":"/img/magazine1.jpg",
+					"url":"/img/magazine1.jpg"
+				}
+				{
+					"imageURL":"",
+					"url":""
+				}
+			]
+}

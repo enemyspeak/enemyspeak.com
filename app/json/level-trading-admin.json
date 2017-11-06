@@ -1,0 +1,31 @@
+
+{
+"id" : "level-trading-admin",
+"name" : "Level Trading Field Admin",
+"title": "Enemyspeak - Level Trading Field Admin",
+"description" : "",
+"keyColor" : "#717171",
+"headerColor":"#e8d487",
+"year" : "2015",
+"imageURL" : "/img/level-glitch1.jpg",
+"projects" : 	[
+				{
+				"name":"Level Trading Field Admin",
+				"description" : "The Level Trading Field Admin provides an interface for managing the NodeJS back-end. Built on Backbone, the admin panel allows managing Level Trading Field apps, blog posts, update news, job posts, chat rooms, and more. It features searchable grids, sorting by column, and a WYSIWYG editor.",
+				"link" : "/img/leveladmin1.png",
+				"year" : "2016-2017",
+				"grid" : 	[
+							"/img/leveladmin2.gif",
+							"/img/leveladmin1.png",
+							"/img/leveladmin3.gif",
+							"/img/leveladmin4.gif"
+							],
+				"smallname" : "process",
+				"smallerGrid" : [
+								"/img/leveladminprocess3.gif",
+								"/img/leveladminprocess1.gif",
+								"/img/leveladminprocess2.gif"
+								]
+				}
+				]
+}

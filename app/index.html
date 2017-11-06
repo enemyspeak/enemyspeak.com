@@ -2,8 +2,10 @@
 <html lang="en" ng-app="enemyspeak">
   <head>
     <meta charset="UTF-8">
+    <title>Enemyspeak</title>
+
     <meta name="title" content="Enemyspeak" />
-    <meta name="description" content="Description" />
+    <meta name="description" content="Design / Code / Art" />
     <meta name="author" content="Kevin Faherty" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
@@ -24,27 +26,34 @@
 <!--<meta property="og:description" content="Description" />
     <meta property="og:image" content="http://www.enemyspeak.com/img/enemyspeaklogo.jpg" />-->
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,400' rel='stylesheet' type='text/css'>    
-    <link type="text/css" rel="stylesheet" href="fonts/foundation/foundation-icons.css" />
-    <link type="text/css" rel="stylesheet" href="css/reset.css"/> 
-    <link type="text/css" rel="stylesheet" href="css/enemystyle.css"/> 
-    <link type="text/css" rel="stylesheet" href="css/enemyspeak.css"/> 
-    <link type="text/css" rel="stylesheet" href="css/animations.css"/>
-    
-    <script src="/bower_components/angular/angular.js"></script>
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/angular-animate/angular-animate.js"></script>
-    <script src="/bower_components/angular-route/angular-route.js"></script>
-    <script src="/bower_components/angular-resource/angular-resource.js"></script>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,300italic' rel='stylesheet' type='text/css'> -->
 
-    <script src="js/app.js"></script>
-    <script src="js/animations.js"></script>
-    <script src="js/controllers.js"></script>
-    <script src="js/services.js"></script>
+    <link type="text/css" rel="stylesheet" href="/fonts/foundation/foundation-icons.css" />
+    <link type="text/css" rel="stylesheet" href="/css/reset.css"/> 
+    <link type="text/css" rel="stylesheet" href="/css/enemystyle.css"/> 
+    <link type="text/css" rel="stylesheet" href="/css/enemyspeak.css"/> 
+    <link type="text/css" rel="stylesheet" href="/css/animations.css"/>
+    
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="/bower_components/angular-route/angular-route.min.js"></script>
+    <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="/bower_components/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+
+    <base href="/">
+
+    <script src="/js/app.js"></script>
+    <script src="/js/animations.js"></script>
+    <script src="/js/controllers.js"></script>
+    <script src="/js/services.js"></script>
   </head>
   <body>
     <div class="view-container">
-      <div ng-view class="view-frame"></div>
+        <div id="static-background" class="overlay static-background"></div>
+        <div id="background" class="overlay background"></div>
+        <div class="headerIndex" ng-include="'partials/header.html'"></div>
+        <div ng-view class="view-frame"></div>
     </div>
   </body>
 </html>

@@ -1,0 +1,47 @@
+{
+"id" : "bat-friend",
+"name" : "Bat Friend",
+"description" : "Bat Friend is a game made in 48 hours by the Bat Friend team at the Global Game Jam in St Louis. Find your bat friend and eat sandwiches and fruit. Be a super gay bat. Find love. Contributed gameplay c# code.",
+"keyColor" : "#93288e",
+"headerColor": "#fb2acb",
+"year" : "2017",
+"controls" : 	{
+				"keyboard": [
+							"[ Arrows ] : Move",
+							"[ Click ] : Start"
+							],
+				"gamepad": 	[
+							"[ JOYSTICK ] : Move",
+							"[ A ] : Start"
+							]
+				},
+"screens" :	 	[
+				"/img/batfrans1.gif",
+				"/img/batfrans2.gif",
+				"/img/batfrans3.gif"
+				],
+"downloadReady":true,
+"download": 	[
+					{
+					"label":"Jam Page",
+					"url":"http://globalgamejam.org/2017/games/bat-friend",
+					"icon":"fi-web"
+					},
+					{
+					"label":"Mac OS",
+					"url":"/res/batfrandsmac.zip",
+					"icon":"fi-social-apple"
+					},
+					{
+					"label":"Windows",
+					"url":"/res/batfrandswin.zip",
+					"icon":"fi-social-windows"
+					},
+					{
+					"label":"Source",
+					"url":"/res/batfransunityproject.zip",
+					"icon":"fi-page-filled"
+					}
+				],
+"imageURL" : "/img/batfrand3.png"
+}

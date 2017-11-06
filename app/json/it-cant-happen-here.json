@@ -1,0 +1,39 @@
+{
+"id" : "it-cant-happen-here",
+"name" : "It Can't Happen Here",
+"description" : "A game adpation of a few scenes from the 1935 play by Sinclair Lewis of the same name. Inspired by Kentucky Route Zero. Made in 48 hours.",
+"keyColor" : "#333333",
+"headerColor": "#b7b7b7",
+"year" : "2013",
+"imageURL" : "/img/game6.jpg",
+"controls" : 	{
+				"Mouse": [
+						 "[ Left Click ] : Select option"
+						 ]
+				},
+"screens" :	 	[
+				"/img/ichh1.gif",
+				"/img/ichh2.gif",
+				"/img/ichh3.png",
+				"/img/ichh4.jpg",
+				"/img/ichh5.jpg"
+				],
+"downloadReady":true,
+"download": 	[
+					{
+					"label":"Mac OS",
+					"url":"/res/ichhmac.zip",
+					"icon":"fi-social-apple"
+					},
+					{
+					"label":"Windows",
+					"url":"/res/ichhpc.zip",
+					"icon":"fi-social-windows"
+					},
+					{
+					"label":"Source",
+					"url":"/res/ichhsrc.zip",
+					"icon":"fi-page-filled"
+					}
+				]
+}

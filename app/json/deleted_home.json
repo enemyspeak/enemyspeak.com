@@ -1,0 +1,36 @@
+	{
+	"id" : "characters",
+	"name" : "Characters",
+	"description" : "Characters",
+	"keyColor" : "#2B6356",
+	"year" : "2015",
+	"imageURL" : "/img/home1.jpg",
+	"hierarchy" : "1"
+	},
+	{
+	"id" : "environments",
+	"name" : "Environments",
+	"description" : "Environments",
+	"keyColor" : "#2B6356",
+	"year" : "2015",
+	"imageURL" : "/img/home1.jpg",
+	"hierarchy" : "1"
+	},
+	{
+	"id" : "studies",
+	"name" : "Studies",
+	"description" : "Studies",
+	"keyColor" : "#2B6356",
+	"year" : "2015",
+	"imageURL" : "/img/home1.jpg",
+	"hierarchy" : "1"
+	},
+	{
+	"id" : "design",
+	"name" : "Web Design",
+	"description" : "web, ui",
+	"keyColor" : "#222222",
+	"year" : "2014-2017",
+	"imageURL" : "/img/home2.jpg",
+	"hierarchy" : "1"
+	}

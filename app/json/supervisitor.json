@@ -1,0 +1,57 @@
+{
+"id" : "supervisitor",
+"name" : "Supervisitor",
+"description" : "Supervisitor is a game made in 48 hours for the Butterscotch ShenaniJam. You are the Supervisitor. Travel through pocket dimensions by aligning yourself with powerful runic symbols. Contributed environment art, level design, lighting, modeling. Ranked #6 overall by user ratings. Kevin Faherty, Matt Donatelli, Zach Fendelman.",
+"keyColor" : "#B2462C",
+"headerColor":"#B2462C",
+"year" : "2017",
+"imageURL" : "/img/supervisitor2.png",
+"controls" : 	{
+				"Keyboard": [
+						"[ Mouse ] : Look",
+						"[ WASD ] : Move",
+						"[ Space ] : Jump"
+						]
+				},
+"screens" :	 	[
+				"/img/supervisitor13.gif",
+				"/img/supervisitor12.gif",				
+				"/img/supervisitor1.png",
+				"/img/supervisitor3.png",
+				"/img/supervisitor6.png",
+				"/img/supervisitor10.gif",
+				"/img/supervisitor11.gif",
+				"/img/supervisitor4.png",
+				"/img/supervisitor5.png",
+				"/img/supervisitor9.png",
+				"/img/supervisitor7.png"
+				],
+"downloadReady":true,
+"download": 	[
+				{
+				"label":"Trailer",
+				"url":"https://www.youtube.com/watch?v=UzlGhPXPW_I",
+				"icon":"fi-web"
+				},
+				{
+				"label":"Jam Page",
+				"url":"https://itch.io/jam/bscotch100",
+				"icon":"fi-web"
+				},
+				{
+				"label":"Itch",
+				"url":"https://mattdonatelli.itch.io/supervisitor",
+				"icon":"fi-web"
+				},
+				{
+				"label":"Mac OS",
+				"url":"/res/Supervisitor_MAC.zip",
+				"icon":"fi-social-apple"
+				},
+				{
+				"label":"Windows",
+				"url":"/res/Supervisitor_PC.zip",
+				"icon":"fi-social-windows"
+				}
+				]
+}

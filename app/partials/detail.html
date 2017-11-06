@@ -1,0 +1,37 @@
+<div class="content">
+	<div class="details">
+		<ul>
+			<li>{{project.name}}</li>
+			<li class="description">{{project.description}} {{project.year}}.</li>
+		</ul>
+	</div>
+	<div class="controls">
+		<ul>
+			<li class="controlsHeader">Controls:</li>
+			<ul ng-repeat="(key, value) in project.controls">
+				<li>{{key}}:</li>
+				<li class="controlsList" ng-repeat="button in value">{{button}}</li>
+			</ul>
+		</ul>
+	</div>
+	<div class="download">
+		<ul>
+			<li>Download:</li>
+			<li ng-if="!project.downloadReady">Not available</li>
+			<li ng-if="project.downloadReady" ng-repeat="(key, value) in project.download">
+				<a target="_blank" ng-href="{{value.url}}"><i class="{{value.icon}}"></i>{{value.label}}</a>
+			</li>
+		</ul>
+	</div>
+	<div class="screens">
+		<ul ng-repeat="image in project.screens">
+			<li><a href="{{image}}" target="_blank"><img ng-src="{{image}}"></a></li>
+		</ul>
+	</div>
+
+	<div class="back">
+		<a ng-href="{{back}}"><p><i class="fi-arrow-left"></i>Back</p></a>
+	</div>
+	
+	<div ng-include="'partials/footer.html'"></div>
+</div>

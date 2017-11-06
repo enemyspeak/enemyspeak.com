@@ -1,25 +1,35 @@
 {
-	"id":"ghost-cats",
-	"name" : "Ghost Cats",
-	"kind":["game","team"],
-	"year":"2015",
-	"mainImage" : "img/ghost-cats2.png",
-	"snippet" : "GHOST CATS IS A MULTIPLAYER GAME MADE WITH @JAUXILES ABOUT FIGHTING ENEMIES IN RANDOMIZED NEON DUNGEONS.",
-	"controls" : 	[
-					"Keyboard:",
-					"[ Q,E,C,Z ] : Move",
-					"[ S ] : Shoot skull",
-					"Gamepad:",
-					"[ JOYSTICK ] : Move",
-					"[ X ] : Shoot skull"
-					],
-	"download" : 	{
-					"Windows" : "Coming Soon",
-					"Mac OS" : "Coming Soon",
-					"Itch.io" : "Coming Soon",
-					"Source" : "Coming Soon"
-					},
-	"media" : 	{
-				"img/ghost-cats1.jpg"
-				}
+"id" : "ghost-cats",
+"name" : "Ghost Cats",
+"description" : "A local multiplayer game supporting up to 6 players about fighting enemies and collecting bananas in randomized neon dungeons. Made with @jauxiles unsing the Love2d framework.",
+"keyColor" : "#2A4D59",
+"headerColor":"#339591",
+"year" : "2014-2015",
+"controls" : 	{
+				"keyboard": [
+							"[ Q,E,C,Z ] : Move",
+							"[ S ] : Throw skull"
+							],
+				"gamepad": 	[
+							"[ JOYSTICK ] : Move",
+							"[ X ] : Throw skull"
+							]
+				},
+"screens" :	 	[
+				"/img/ghostcats1.gif",
+				"/img/ghostcats2.gif",
+				"/img/ghostcats3.gif",
+				"/img/ghostcats4.gif",
+				"/img/ghostcats5.gif",
+				"/img/ghostcats6.gif"
+				],
+"downloadReady":false,
+"download": 	{
+				"Mac OS":"url",
+				"Windows":"url",
+				"Source":"url",
+				"Love":"url",
+				"Itch.io":"url"
+				},
+"imageURL" : "/img/game1.jpg"
 }

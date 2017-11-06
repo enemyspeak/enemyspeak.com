@@ -1,56 +1,44 @@
+html,body {
+	width: 100%;
+	/*height: 100%;*/
+	display: block;
+	/*position: relative;*/
+}
 
 body {
 	background-color: #222;
 }
 
-.fullscreen {
-	width: 100%;
-	height: 100%;
+.headerIndex {
+	position: relative;
+    z-index: 99;
 }
 
 .overlay {
 	position: fixed;
+	width: 100%;
+	height: 100%;
 	top: 0;
 	left: 0;
 	z-index: 1;
+	background-size: cover;
+	background-position: center;
 }
 	.background {
-		background-size: cover;
 		background-color: transparent;
 		opacity: 0;
 	}
 	.screen {
 		opacity: 1;
-		background-color: #000;
+		background-color: #222;
 	}
 
 .content {
 	position: relative;
 	z-index: 2;
+	width: 100%;
+	height: 100%;
 	text-align: left;
-}
-
-.align {
-	clear: left;
-	float: left;
-}
-
-.logo {
-	margin-top:100px;
-	width:675px;
-	display: inline-block;
-}
-
-.logo li {
-	list-style: none;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	text-align: left;
-	padding: 5px 10px 6px 10px;
-	margin: 10px 0px 0px 50px;
-	background-color: #222;
-	color: #FFF;
 }
 
 h1 {
@@ -59,76 +47,424 @@ h1 {
 }
 
 h2 {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 a {
 	color: #FFF;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #AAA;
 }
 
-.navigation {
-	width:675px;
-	margin: 25px 0px 0px 50px;
+i {
+	padding-right: 8px;
+}
+
+li,content-item {
+	list-style: none;
+	font-family: 'Verlag', sans-serif;
+	font-weight: 100;
+}
+
+p {
+	font-family: 'Verlag', sans-serif;
+    font-weight: 100;
+}
+
+.brand {
+	margin: 40px 0px 0px 0px;
+	position:relative; 
+	display: block;
+	/*top: 40px;*/
+}
+
+.brand table {
+	margin-left: 50px;
+	padding: 0px;
+}
+.brand table td {
+    vertical-align: top;
+}
+.logo {
+	width:  100px;
+	height: 100px;
+}
+
+.header {
+	position: absolute;
+	top:13px;
+	display: block;
+	margin-left: 20px;
+}
+
+.brand:hover h1 {
+	color: #fff !important;
+}
+
+.header h1 {
+	transition: color 200ms ease;
+}
+
+.header .spacer {
+	height: 4px;
+	padding: 0;
+	background-color: transparent;
+}
+
+.header a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.header li {
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	color: #FFF;
+}
+
+.header li h1, .header li h2 {
+    display: inline-block;
+	padding: 5px 10px 3px 8px;
+	background-color: #222;
+}
+
+.breadcrumb {
+	width: auto;
+   	height: 35px;
+	position: relative;
+	margin: 60px 0px 10px 0px;
+	font-family: 'Verlag', sans-serif;
+	white-space:nowrap;
+	font-weight: 100;
+	text-transform: capitalize;
+    font-size: 24px;
+    color: #FFF;
+    transition: color 200ms ease;
+}
+
+.breadcrumb p {
+    width: auto;
+    height: 24px;
+    display: inline-block;
+	margin-left: 50px;
+	background-color: #222;
+    padding: 6px 10px 5px 10px;
+}
+
+.breadcrumb .small {
+    font-size: 20px;
+    height: 20px;
+    text-transform: capitalize;
+}
+
+.breadcrumb.ng-hide {
+	display: block !important;
+}
+.grid .breadcrumb.ng-hide {
+	display: none !important;
+}
+
+.breadcrumb.ng-hide p {
+	background-color: transparent;
+}
+
+.projectDescription {
+    display: inline-block;
+    max-width: 576px;
+    /*text-transform: uppercase;*/
+    font-size: 16px;
+    line-height: 20pt;
+    text-align: left;
+    padding: 5px 10px 3px 10px;
+    margin: 8px 0px 0px 0px;
+    background-color: #222;
+    color: #fff;
+    list-style: none;
+	margin: 0px 0px 0px 50px;
+}
+
+.projectDescription p {
+	font-size: 16px;
+	line-height: 22pt;
+}
+
+.grid .projectLink {
+	clear: left;
+    font-size: 16px;
+	text-align: left;
+	color: #fff;
+	width: auto;
+	white-space:nowrap;
+	margin: 10px 0px 0px 50px;
+}
+
+.grid .projectLink ul {
+    margin: 0px;
 	display: inline-block;
+}
+
+.grid .projectLink li {
+	display: inline-block;
+	padding: 5px 10px 4px 10px;
+	margin: 8px 4px 0px 0px;
+	width: auto;
+	vertical-align: top;
+    height: 26px;
+	background-color: #222;		
+}
+
+.navigation {
+	margin-left: 50px;
 }
 
 .navigation li {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	width: auto;
 	font-size: 42px;
     text-transform: uppercase;
 	text-align: left;
-	padding: 5px 10px 6px 10px;
 	margin: 8px 0px 0px 0px;
-	background-color: #222;
-	list-style: none;
 }
 
 .navigation .subhead {
-	display: inline-block;
-	font-size: 12px;
-	padding: 0px 10px 5px 10px;
+	font-size: 14px;
 	margin: 0px;
+}
+
+.navigation .subhead p {
+	padding: 0px 10px 5px 10px;
+}
+
+.navigation p {
+	display: inline-block;
+	padding: 5px 10px 3px 10px;
+	background-color: #222;
+}
+
+.images li,.images content-item {
+	margin: 25px 50px 0px 50px;
+}
+
+.images img {
+	max-width: 900px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.details {
+	width: 576px;
+	margin: 97px 0px 0px 50px;
+	display: inline-block;
+}
+
+.details li,.details content-item {
+	display: inline-block;
+	font-size: 42px;
+    /*text-transform: uppercase;*/
+	text-align: left;
+	padding: 5px 10px 3px 10px;
+	margin: 8px 0px 0px 0px;
+	background-color: #222;
+	color: #fff;
+	clear: left;
+	float: left;
+	list-style: none;
+}
+
+.details .description {
+	font-size: 16px;
+	line-height: 22pt;
+}
+
+.controls {
+	clear: left;
+    text-transform: Capitalize;
+    font-size: 16px;
+	text-align: left;
+	color: #fff;
+	width: 675px;
+	white-space:nowrap;
+	margin: 10px 0px 0px 50px;
+}
+
+.controls ul {
+	display: inline-block;
+   	/*float: left;*/
+    vertical-align: top;
+	margin: 0px 4px 0px 0px;
+}
+
+.controls li {
+	display: inline-block;
+	padding: 5px 10px 4px 10px;
+	margin: 8px 4px 0px 0px;
+	background-color: #222;		
+}
+
+.controls .controlsList {
+	display: block;
+	margin: 0px 0px 0px 0px;
+}
+
+.controls .controlsHeader {
+	float: left;
+	margin-right: 11px;
+}
+
+.download {
+	clear: left;
+    text-transform: capitalize;
+    font-size: 16px;
+	text-align: left;
+	color: #fff;
+	width: auto;
+	white-space:nowrap;
+	margin: 10px 0px 0px 50px;
+}
+
+.download ul {
+	display: inline-block;
+}
+
+.download li {
+	display: inline-block;
+	padding: 5px 10px 4px 10px;
+	margin: 8px 4px 0px 0px;
+	background-color: #222;		
+}
+
+.screens {
+	width: 100%;
+	margin: 60px 0px 0px 0px;
+}
+
+.screens li, .screens content-item {
+	width:576px;
+	margin: 4px 0px 0px 50px;
+}
+
+.screens img {
+    width: 576px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.grid {
+    width: 1258px;
+}
+
+.grid a {
+	width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.grid ul {
+	margin: 60px 50px 0px 50px;
+}
+
+.grid li, .grid content-item {
+	width: 50%;
+    padding-right: 3px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.grid img, .grid video {
+    width: 576px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.grid .small {
+	margin-top: 0;
+}
+
+.grid .small li, .grid .small content-item {
+	width: 33.333%;
+}
+
+.grid .small img,.grid .small video {
+	width: 384px;
+}
+
+.back {
+	display: block;
+	white-space:nowrap;
+	font-family: 'Verlag', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    text-transform: uppercase;
+	text-align: left;
+	margin: 40px 0px 0px 0px;
+	list-style: none;
+}
+
+.back a {
+	width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.back p {
+	width: auto;
+	height: 12px;
+	display: inline-block;
+	margin-left: 50px;
+	padding: 5px 10px 6px 10px;
+	background-color: #222;
+}
+
+.divider{
+	width: 576px;
+	border: none;
+	border-bottom: 1px solid #222;
+	margin: 50px 0px 0px 50px;
 }
 
 .contact {
 	width: 675px;
-	margin: 10px 0px 10px 50px;
+	margin: 30px 0px 0px 50px;
 	display: inline-block;
 }
 
 .contact li {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
 	font-size: 12px;
     text-transform: uppercase;
 	text-align: left;
 	display: inline-block;
 	padding: 5px 10px 6px 10px;
-	margin: 8px 0px 0px 0px;
+	margin: 8px 4px 0px 0px;
 	background-color: #222;
 	list-style: none;
 }
 
 .copyright {
-	width: 675px;
-  	display: inline-block;
+	width: 100%;
+  	margin: 20px 0px 40px 0px;
 }
 
 .copyright li {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
 	font-size: 12px;
     text-transform: uppercase;
 	text-align: left;
 	display: inline-block;
 	padding: 5px 10px 6px 10px;
-	margin: 8px 0px 0px 0px;
+	margin: 8px 0px 0px 50px;
 	background-color: #222;
 	color: #fff;
 	list-style: none;
+}
+
+.logoColor {
+	-webkit-transition: 0.1s linear all;
+	-moz-transition: 0.1s linear all;
+	-o-transition: 0.1s linear all;
+	transition: 0.1s linear all;
+	fill: #222;
+}
+
+.brand:hover .logoColor {
+	fill: #333 !important;
 }

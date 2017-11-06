@@ -1,0 +1,44 @@
+{
+"id" : "product-selector",
+"name" : "Radyne Product Selector",
+"title": "Enemyspeak - Radyne Product Selector",
+"description" : "Product sales aid tool created for Radyne Corporation for use on a 1080p kiosk at trade show events. Supports filtering products by application, industry, and part type. Contains product descriptions, features, technical data, photography, videos, and service descriptions. Independently produced all code, copy, images, videos, and graphics. Created using AngularJS.",
+"keyColor" : "#af7258",
+"headerColor":"#ad7e6b",
+"year" : "2015",
+"imageURL" : "/img/product-selector.png",
+"projects" : 	[
+				{
+				"name":"Product Selector",
+				"description" : "The Radyne Product Selector was designed to run at 1080p and feature looping background videos, seamless page loads and transitions, animated SVG graphics, and fullscreen background images. Each pillar of Radyne's business is represented in the buttons on the home screen.",
+				"link" : "http://www.drop.enemyspeak.com/product-selector",
+				"year" : "2015",
+				"grid" : 	[
+							"/img/selector10.gif",
+							"/img/selector12.jpg",
+							"/img/selector9.gif",
+							"/img/selector4.jpg",
+							"/img/selector8.gif",
+							"/img/selector3.jpg",
+							"/img/selector6.gif",
+							"/img/selector5.jpg",
+							"/img/selector7.gif",
+							"/img/selector2.jpg",
+							"/img/selector13.gif",
+							"/img/selector1.jpg"
+							],
+				"smallname" : "process",
+				"smallerGrid" : [
+								"/img/selector-process3.gif",
+								"/img/selector-process4.gif",
+								"/img/selector-process2.jpg",
+								"/img/selector-wireframe6.gif",
+								"/img/selector-wireframe1.png",
+								"/img/selector-wireframe2.png",
+								"/img/selector-wireframe3.png",
+								"/img/selector-wireframe4.png",
+								"/img/selector-wireframe5.png"
+								]
+				}
+				]
+}

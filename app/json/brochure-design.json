@@ -1,0 +1,31 @@
+{
+"id" : "brochure-design",
+"name" : "Brochure Design",
+"description" : "Product brochures & collateral",
+"keyColor" : "#27465A",
+"year" : "2014-2015",
+"imageURL" : "/img/design1.jpg",
+"projects" : 	[
+				{
+				"name":"Product Brochures",
+				"description" : "Radyne sales aid product brochures for print and web.",
+				"year" : "2014-2015",
+				"grid" : 	[
+							"/img/selector-process1.jpg",
+							"/img/selector-process2.jpg"
+							],
+				"smallname" : "process",
+				"smallerGrid" : [
+								"/img/selector-process3.gif",
+								"/img/selector-process4.gif",
+								"/img/selector-process2.jpg",
+								"/img/selector-wireframe6.gif",
+								"/img/selector-wireframe1.png",
+								"/img/selector-wireframe2.png",
+								"/img/selector-wireframe3.png",
+								"/img/selector-wireframe4.png",
+								"/img/selector-wireframe5.png"
+								]
+				}
+				]
+}

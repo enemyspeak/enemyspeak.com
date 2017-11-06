@@ -1,0 +1,57 @@
+{
+"id" : "web-development",
+"name" : "Website Development",
+"description" : "Corporate/eCommerce websites created for several business clients. Responsible for design/front-end code for web and mobile, admin panels, responsive layouts, site templating, JS interactions, and CSS.",
+"keyColor" : "#717171",
+"headerColor":"#fff",
+"year" : "2014-2017",
+"imageURL" : "/img/home2.jpg",
+"projects" : 	[
+				{
+				"name":"Ogogoro",
+				"description" : "Ogogoro is an entirely free provider of real time streaming news from 300+ major news agencies. Responsible for all web-facing code, including streaming websocket connection to back-end services, animations, and resizable panels.",
+				"link" : "https://ogogoro.com/",
+				"year" : "2017",
+				"grid" : 	[
+							"/img/ogogoro1.gif",
+							"/img/ogogoro2.gif",
+							"/img/ogogoro3.png",
+							"/img/ogogoro4.png"
+							]
+				},
+				{
+				"name":"Riskbone",
+				"description" : "Main website for Riskbone, containing information about the company and its products. Features interactive svg divider elements, blog and job postings, an admin editor, CSS transitions, and responsive design.",
+				"link" : "http://riskbone.com/",
+				"year" : "2016",
+				"grid" : 	[
+							"/img/riskbone1.gif",
+							"/img/riskbone3.gif",
+							"/img/riskbone2.jpg",
+							"/img/riskbone3.jpg"
+							]
+				},
+				{
+				"name":"Into3D",
+				"description" : "Contains information on Into3D LLC's 3D scanning, rapid prototyping, and distribution business in a fully responsive layout with seamless page loads. Developed all code, including upload tool for sending 3D models to be printed, article system for case studies, and store with product detail pages. Responsible for Into3D LLC branding.",
+				"link" : "http://into3dllc.com/",
+				"year" : "2016",
+				"grid" : 	[
+							"/img/i3dllc.mp4",
+							"/img/into3dllc4.jpg",
+							"/img/into3dllc1.jpg",
+							"/img/into3dllc3.jpg"
+							]
+				},
+				{
+				"name":"Radyne",
+				"description" : "Main website for Radyne Corporation. Contains information on induction heating, applications, and Radyne products. Created wire frames and prototypes to inform the final design of all 40 company websites under the Inductotherm Group parent company. Responsible for all photography, video content, illustrations, and marketing copy.",
+				"link" : "http://radyne.com/",
+				"year" : "2014-2015",
+				"grid" : 	[
+							"/img/radyne1.jpg",
+							"/img/radyne3.jpg"
+							]
+				}
+				]
+}

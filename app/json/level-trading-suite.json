@@ -1,0 +1,36 @@
+
+{
+"id" : "level-trading-suite",
+"name" : "Level Trading Suite",
+"title": "Enemyspeak - Level Trading Suite",
+"description" : "Suite of eight real-time trading apps built for Level Trading Field, an online financial platform. Lead of a team of four developers, responsible for meeting production deadlines and managing workload of a large project over a one year development cycle. Coded base classes, contract searching and favorites, contract data caching, app styling, layouts, grids, menus, and more. Handled integration with multiple C++ back-end services including the authority server, price publisher, order gateway, and position server.",
+"keyColor" : "#717171",
+"headerColor":"#fff",
+"year" : "2017",
+"imageURL" : "/img/level-glitch1.jpg",
+"projects" : 	[
+				{
+				"name":"Apps",
+				"description" : "The Level Trading Suite features eight apps for trading futures with real-time market data. The Market app shows detailed information on several contracts at once. The Depth and Bar Depth apps provide depth of market views by contract in two different styles. Order Ticket is the simplest, easiest way to place trades. Orders, Fills, and Audit track active orders, fills, and message history respectively. Position shows position, P&L and working orders. Developed a contract browser for use with the Trading Suite.",
+				"link" : "http://www.leveltradingfield.com",
+				"year" : "2017",
+				"grid" : 	[
+							"/img/leveltrade10.mp4",
+							"/img/level5.png",
+							"/img/leveltrade3.mp4",
+							"/img/leveltrade6.jpg",
+							"/img/leveltrade2.mp4",
+							"/img/leveltrade5.jpg",
+							"/img/leveltrade4.mp4",
+							"/img/leveltrade4.jpg",
+							"/img/leveltrade1.mp4"
+							],
+				"smallname" : "Marketing",
+				"smallerGrid" : [
+								"/img/orderticket.png",
+								"/img/bartrader.png",
+								"/img/market.png"
+								]
+				}
+				]
+}

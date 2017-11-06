@@ -1,0 +1,32 @@
+{
+"id" : "carnton",
+"name" : "Carnton",
+"description" : "A point and click game about exploring an old house. Made in 48 hours.",
+"keyColor" : "#4E4439",
+"headerColor":"#b2ac8c",
+"year" : "2013",
+"imageURL" : "/img/game5.jpg",
+"controls" : 	{
+				"Mouse": [
+						 "[ Left Click ] : Select option"
+						 ]
+				},
+"screens" :	 	[
+				"/img/carnton1.gif",
+				"/img/carnton2.gif",
+				"/img/carnton3.jpg"
+				],
+"downloadReady":true,
+"download": 	[
+					{
+					"label":"Windows",
+					"url":"/res/carntonpc.zip",
+					"icon":"fi-social-windows"
+					},
+					{
+					"label":"Source",
+					"url":"/res/carntonsrc.zip",
+					"icon":"fi-page-filled"
+					}
+				]
+}

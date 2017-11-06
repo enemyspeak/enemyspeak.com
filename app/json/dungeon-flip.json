@@ -1,0 +1,43 @@
+{
+"id" : "dungeon-flip",
+"name" : "Dungeon Flip",
+"description" : "Dungeon Flip is a game made in 48 hours by the Dungeon Flip team at the Global Game Jam in St Louis. Place tiles to outfit a character, then flip them over to reveal the dungeon. Tiles placed will create a player’s deck with which to face the monsters, mooks, and traps in the dungeon. Contributed artwork.",
+"keyColor" : "#6E4134",
+"headerColor":"#db8257",
+"year" : "2014",
+"imageURL" : "/img/game3.jpg",
+"controls" : 	{
+				"Mouse": [
+						 "[ Left Click ] : Select option"
+						 ]
+				},
+"screens" :	 	[
+				"/img/dungeonflip1.jpg",
+				"/img/dungeonflip2.jpg",
+				"/img/dungeonflip3.jpg",
+				"/img/dungeonflip4.jpg"				
+				],
+"downloadReady":true,
+"download": 	[
+				{
+				"label":"Jam Page",
+				"url":"http://globalgamejam.org/2014/games/dungeon-flip",
+				"icon":"fi-web"
+				},
+				{
+				"label":"Website",
+				"url":"https://dungeonflip.wordpress.com/",
+				"icon":"fi-web"
+				},
+				{
+				"label":"Github",
+				"url":"https://github.com/mscarter/GGJ2014_IDungeon",
+				"icon":"fi-social-github"
+				},
+				{
+				"label":"Source",
+				"url":"/res/dungeonflipsrc.zip",
+				"icon":"fi-page-filled"
+				}
+				]
+}

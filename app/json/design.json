@@ -1,0 +1,47 @@
+{
+"title": "Enemyspeak - Design",
+"keyColor" : "#333",
+"headerColor":"#FFF",
+"list": [
+		{
+		"id" : "level-trading-suite",
+		"name" : "Level Trading Suite",
+		"description" : "Lead Developer, Suite of Trading Apps for LTF",
+		"keyColor" : "#717171",
+		"headerColor":"#fff",
+		"year" : "2017",
+		"imageURL" : "/img/level-glitch1.jpg",
+		"hierarchy" : "1"
+		},
+		{
+		"id" : "level-trading",
+		"name" : "Level Trading Field",
+		"description" : "Financial Platform. Javascript, NodeJS, Backbone",
+		"keyColor" : "#717171",
+		"headerColor":"#f8a81f",
+		"year" : "2016-2017",
+		"imageURL" : "/img/level7.jpg",
+		"hierarchy" : "1"
+		},
+		{
+		"id" : "product-selector",
+		"name" : "Radyne Product Selector",
+		"description" : "Interactive Sales Aid. Javascript, AngularJS",
+		"keyColor" : "#af7258",
+		"headerColor":"#ad7e6b",
+		"year" : "2015",
+		"imageURL" : "/img/product-selector.png",
+		"hierarchy" : "1"
+		},
+		{
+		"id" : "web-development",
+		"name" : "Web Development",
+		"description" : "responsive design, Javascript, Templating, CSS",
+		"keyColor" : "#717171",
+		"headerColor":"#fff",
+		"year" : "2014-2017",
+		"imageURL" : "/img/home2.jpg",
+		"hierarchy" : "1"
+		}
+		]
+}

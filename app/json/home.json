@@ -1,39 +1,35 @@
-[
+{
+"title": "Enemyspeak - Design / Code / Art",
+"list": [
 	{
-	"id" : "portfolio",
-	"name" : "Portfolio",
-	"description" : "Selected Work",
-	"category" : ["illustration","design","solo"],
-	"year" : "2015",
-	"imageURL" : "",
+	"id" : "2d-art",
+	"name" : "2D Art",
+	"description" : "digital",
+	"keyColor" : "#695747",
+	"headerColor": "#d2be86",
+	"year" : "2013-2017",
+	"imageURL" : "/img/rebroadcast.png",
 	"hierarchy" : "1"
 	},
 	{
-	"id" : "work",
-	"name" : "Selected Work",
-	"description" : "Output",
-	"category" : ["illustration","design","game"],
-	"year" : "2015",
-	"imageURL" : "",
-	"hierarchy" : "2"
+	"id" : "design",
+	"name" : "Design",
+	"description" : "web, ui",
+	"keyColor" : "#222222",
+	"headerColor": "#FFF",
+	"year" : "2014-2017",
+	"imageURL" : "/img/level7.jpg",
+	"hierarchy" : "1"
 	},
 	{
-	"id" : "blog",
-	"name" : "Development Blog",
-	"description" : "Selected Work",
-	"category" : ["blog"],
-	"year" : "2015",
-	"URL" : "http://blog.enemyspeak.com",
-	"imageURL" : "",
-	"hierarchy" : "2"
-	},
-	{
-	"id" : "ghost-cats",
-	"name" : "Latest Project: Ghost Cats",
-	"description" : "Local Multiplayer",
-	"category" : ["game","team"],
-	"year" : "2014-2015",
-	"imageURL" : "",
+	"id" : "games",
+	"name" : "Games",
+	"description" : "Indie, Mobile",
+	"keyColor" : "#B2462C",
+	"headerColor":"#B2462C",
+	"year" : "2013-2017",
+	"imageURL" : "/img/supervisitor2.png",
 	"hierarchy" : "1"
 	}
-]
+	]
+}

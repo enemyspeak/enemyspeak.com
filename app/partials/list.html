@@ -1,0 +1,18 @@
+<div class="content">
+	<div ng-hide="( breadcrumb == '' )" class="breadcrumb"><p>{{breadcrumb}}</p></div>
+	
+	<div id="navigation" class="navigation">
+		<ul ng-mouseover="imageChangeHandler(project.imageURL,project.keyColor,project.headerColor)" ng-repeat="project in list">
+			<a href="{{path}}{{project.id}}">
+				<li><p>{{project.name}}</p></li>
+				<li class="subhead"><p>{{project.description}}, {{project.year}}</p></li>
+			</a>
+		</ul>
+	</div>
+
+	<div ng-hide="( back == '' )" class="back">
+		<a ng-href="{{back}}"><p><i class="fi-arrow-left"></i>Back</p></a>
+	</div>
+	
+	<div ng-include="'partials/footer.html'"></div>
+</div>

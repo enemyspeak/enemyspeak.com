@@ -1,0 +1,22 @@
+{
+"id" : "emission",
+"name" : "Emission",
+"description" : "",
+"keyColor" : "#296684",
+"year" : "2013",
+"imageURL" : "/img/game2.jpg",
+"controls" : 	{
+				"Mouse": [
+						 "[ Left Click ] : Select"
+						 ]
+				},
+"screens" :	 	[
+				"/img/demonomicon1.gif",
+				"/img/demonomicon2.gif",
+				"/img/demonomicon3.gif",
+				"/img/demonomicon4.jpg",
+				"/img/demonomicon5.jpg"
+				],
+"downloadReady":false,
+"download": 	[]
+}

@@ -1,0 +1,45 @@
+{
+"id" : "demonomicon",
+"name" : "Demonomicon",
+"title": "Enemyspeak - Demonomicon",
+"description" : "Demonomicon is a game made in 48 hours by the Demonomicon team at the Global Game Jam in St Louis. Perform rituals to summon devils to fight for you. Contributed background art, animation, and c# code.",
+"keyColor" : "#296684",
+"headerColor":"#33a1da",
+"year" : "2016",
+"imageURL" : "/img/game2.jpg",
+"controls" : 	{
+				"Mouse": [
+						 "[ Left Click ] : Select"
+						 ]
+				},
+"screens" :	 	[
+				"/img/demonomicon1.gif",
+				"/img/demonomicon2.gif",
+				"/img/demonomicon3.gif",
+				"/img/demonomicon4.jpg",
+				"/img/demonomicon5.jpg"
+				],
+"downloadReady":true,
+"download": 	[
+					{
+					"label":"Jam Page",
+					"url":"http://globalgamejam.org/2016/games/demonomicon",
+					"icon":"fi-web"
+					},
+					{
+					"label":"Github",
+					"url":"https://github.com/Jaegersama/Diablonomicon/tree/k2",
+					"icon":"fi-social-github"
+					},
+					{
+					"label":"Windows",
+					"url":"/res/demonomiconwin.zip",
+					"icon":"fi-social-windows"
+					},
+					{
+					"label":"Source",
+					"url":"/res/demonomiconsrc.zip",
+					"icon":"fi-page-filled"
+					}
+				]
+}

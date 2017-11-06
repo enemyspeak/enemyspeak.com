@@ -1,0 +1,34 @@
+<div class="content">
+	<div class="details">
+		<ul>
+			<li>{{project.name}}</li>
+			<li class="description">{{project.description}} {{project.year}}.</li>
+		</ul>
+	</div>
+
+	<div class="grid" ng-repeat="item in project.projects">
+		<div class="breadcrumb"><p>{{item.name}}</p></div>
+		<div class="projectDescription"><p>{{item.description}} {{item.year}}.</p></div>
+		<div ng-hide="( item.link == undefined )" class="projectLink">
+			<ul>
+				<li>Link:</li>
+				<li><i class="fi-web"></i><a href="{{item.link}}" target="_blank">{{item.link}}</a></li>
+			</ul>
+		</div>
+
+		<ul id="container">
+			<content-item ng-repeat="image in item.grid" content="image"></content-item>
+		</ul>
+
+		<div ng-hide="( item.smallname == undefined )" class="breadcrumb"><p class="small">{{item.smallname}}</p></div>
+		<ul class="small">
+			<content-item ng-repeat="image in item.smallerGrid" content="image"></content-item>
+		</ul>
+	</div>
+
+	<div class="back">
+		<a ng-href="{{back}}"><p><i class="fi-arrow-left"></i>Back</p></a>
+	</div>
+
+	<div ng-include="'partials/footer.html'"></div>
+</div>
