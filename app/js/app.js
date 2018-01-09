@@ -29,7 +29,7 @@ enemyspeak.config(['$routeProvider','$locationProvider',
         controller: 'ImageListPageCtrl'
       }).
 */
-      when('/2d-art',{
+      when('/art',{
         templateUrl: '/partials/imagelist.html',
         controller: 'ImageListPageCtrl'
       }).
@@ -41,11 +41,11 @@ enemyspeak.config(['$routeProvider','$locationProvider',
         templateUrl: '/partials/detail.html',
         controller: 'DetailPageCtrl'
       }).
-      when('/design',{
-        templateUrl: '/partials/list.html',
-        controller: 'ListPageCtrl'
-      }).
-      when('/design/:designID', {
+      // when('/design',{
+      //   templateUrl: '/partials/list.html',
+      //   controller: 'ListPageCtrl'
+      // }).
+      when('/:designID', {
         templateUrl: '/partials/imagegrid.html',
         controller: 'DetailPageCtrl'
       }).

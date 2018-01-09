@@ -1,0 +1,22 @@
+
+{
+"id" : "tweet-box",
+"name" : "Tweet Box",
+"title": "Enemyspeak - Tweet Box",
+"description" : "Twitter client built using React, socket.io, and a Node back end. Designed all aspects, including modular components, animations, api to Node back end, sessions, authentication, and more. Code available on github.",
+"keyColor" : "#717171",
+"headerColor":"#fff",
+"year" : "2017",
+"imageURL" : "/img/level-glitch1.jpg",
+"projects" : 	[
+				{
+				"name":"Tweet Box",
+				"description" : "Twitter app that features user authentication with Twitter, realtime streaming timelines, favorites, retweets, mentions, direct messages, profiles, search, and more.",
+				"link" : "http://138.197.170.47/",
+				"year" : "2017",
+				"grid" : 	[
+							"/img/leveltrade1.mp4"
+							]
+				}
+				]
+}

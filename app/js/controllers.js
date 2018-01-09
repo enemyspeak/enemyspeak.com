@@ -77,9 +77,19 @@ enemyControllers.controller('ImageListPageCtrl', ['$rootScope','$scope','$routeP
 
 enemyControllers.controller('DetailPageCtrl', ['$scope','$routeParams','$log', '$location', '$http',
   function ($scope,$routeParams,$log,$location,$http) {
-    $scope.path = $location.path().substring(1);
-    $scope.back = $scope.path.split('/')[0];
-    var projectID = $scope.path.split('/')[1];
+    $scope.path = $location.path();
+
+    var projectID = $scope.path.split('/')[2];
+    $scope.back = $scope.path.split('/')[1];
+    
+    if (!projectID) {
+     projectID = $scope.path.split('/')[1];      
+     $scope.back = '/';
+    }
+
+    console.log(projectID);
+    console.log($scope.back);
+    
     $scope.breadcrumb = '';
 
     $http.get('json/'+projectID+'.json').success(function(data) {
