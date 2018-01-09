@@ -15,8 +15,19 @@
 				"link" : "http://138.197.170.47/",
 				"year" : "2017",
 				"grid" : 	[
-							"/img/leveltrade1.mp4"
-							]
+							"/img/tweet-box1.mp4",
+							"/img/tweetbox3.png",
+							"/img/tweetbox5.png",
+							"/img/tweetbox6.png",
+							"/img/tweetbox7.png",
+							"/img/tweetbox8.png"
+							],
+				"smallname" : "Authentication",
+				"smallerGrid" : [
+								"/img/tweetbox1.png",
+								"/img/tweetbox2.png",
+								"/img/tweetbox4.png"
+								]
 				}
 				]
 }
